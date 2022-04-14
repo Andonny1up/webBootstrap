@@ -16,6 +16,12 @@ a:hover{
     color: white;
     text-decoration: underline;
 }
+#header-nav img{
+ width: 80px;
+}
+.navbar-nav .nav-item .text-resaltar{
+    color: #97c93e;
+}
 footer{
     /* padding: 24px 0; */
     background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372)
