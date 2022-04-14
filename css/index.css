@@ -54,10 +54,10 @@ main .Carousel img{
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
 }
-main .Carousel .overlay a{
+main .Carousel .overlay a, main #place-time a{
     font-size: 1.6rem;
 }
-main .Carousel .overlay a:hover{
+main .Carousel .overlay a:hover, main #place-time a{
     text-decoration: none;
 }
 main .Carousel .overlay .btn-platzi{
@@ -79,6 +79,22 @@ main .Carousel .overlay .btn-platzi:hover{
 }
 .section-cards .card .card-body h5{
     font-size: 2rem;
+}
+#place-time{
+    color: white;
+    background-color: #343a40;
+}
+#place-time .row img{
+    max-width: 100%;
+}
+#place-time .div-info{
+ padding: 20px 10px;
+}
+#place-time .div-info h2{
+    font-size: 3.2rem;
+}
+#place-time .div-info p{
+    text-align: justify;
 }
 footer{
     /* padding: 24px 0; */
