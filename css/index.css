@@ -69,6 +69,9 @@ main .Carousel .overlay a, main #place-time a{
 main .Carousel .overlay a:hover, main #place-time a{
     text-decoration: none;
 }
+.btn{
+    font-size: 1.6rem;
+}
 .btn-platzi{
     font-size: 1.6rem;
     color: white;
@@ -112,6 +115,6 @@ footer{
 footer a{
     color: white;
 }
-#modalCompra{
+#modalCompra input{
     font-size: 1.6rem;
 }
